@@ -10,7 +10,7 @@ const Home = function () {
 
   return (
     <>
-      <p>Create a new tournment</p>
+      <p className="text-white">Create a new tournment</p>
       <button type="submit" onClick={createNew} className="btn btn-success"> + </button>
     </>
   )
